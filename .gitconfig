@@ -1,0 +1,7 @@
+[user]
+	name = smison
+	email = kinn.ginn.sunago@gmail.com
+[color]
+	ui = auto
+[alias]
+  fix = commit --amend
