@@ -5,3 +5,5 @@
 	ui = auto
 [alias]
   fix = commit --amend
+[core]
+	editor = vim
