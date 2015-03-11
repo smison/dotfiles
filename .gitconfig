@@ -4,6 +4,6 @@
 [color]
 	ui = auto
 [alias]
-  fix = commit --amend
+	fix = commit --amend
 [core]
 	editor = vim
