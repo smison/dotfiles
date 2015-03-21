@@ -1,1 +1,6 @@
 # dotfiles
+
+- update
+```
+./update.sh
+```
