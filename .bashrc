@@ -74,4 +74,12 @@ alias suni='grep -vl svn | sort | uniq'
 
 PATH="/usr/local/heroku/bin:$PATH"
 
+function javaexec() {
+  fname_ext=$1
+  fname="${fname_ext%.*}"
+  javac $fname_ext
+  java  $fname
+  echo;
+}
+
 source ~/.bashrc_ext
