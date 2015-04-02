@@ -9,6 +9,7 @@ fi
 alias rm='rm -i'
 
 alias vibash='vim ~/.bashrc'
+alias vibashext='vim ~/.bashrc_ext'
 alias rebash='source ~/.bashrc'
 alias vimrc='vi ~/.vimrc'
 
