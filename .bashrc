@@ -8,6 +8,7 @@ fi
 # User specific aliases and functions
 alias rm='rm -i'
 
+alias vi='vim'
 alias vibash='vim ~/.bashrc'
 alias vibashext='vim ~/.bashrc_ext'
 alias rebash='source ~/.bashrc'
