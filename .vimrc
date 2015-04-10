@@ -78,17 +78,26 @@ filetype plugin indent on
 
 " ===============================================================
 " NERD-Tree
+set nocompatible
+filetype off
+
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim
+    call neobundle#begin(expand('~/.vim/bundle/'))
+        NeoBundle 'scrooloose/nerdtree'
+    call neobundle#end()
+endif
 " <F9>でNERDTreeを開く
-"nmap <F9> :NERDTreeToggle
+nmap <F9> :NERDTreeToggle
 " <C-n>で次のタブへ
-"nnoremap <C-n> gt
+nnoremap <C-n> gt
 " <C-p>で前のタブへ
-"nnoremap <C-p> gT
+nnoremap <C-p> gT
 " Auto launch NERD-Tree unless with args.
-"let file_name = expand("%")
-"if has('vim_starting') &&  file_name == ""
-"  autocmd VimEnter * NERDTree ./
-"endif
+let file_name = expand("%")
+if has('vim_starting') &&  file_name == ""
+  autocmd VimEnter * NERDTree ./
+endif
 " ===============================================================
 
 " ===============================================================
