@@ -119,12 +119,12 @@ endif
 
 " ===============================================================
 " NERD-Commenter
-"Bundle 'The-NERD-Commenter'
+NeoBundle 'scrooloose/nerdcommenter'
 
 " コメントした後に挿入するスペースの数
-"let NERDSpaceDelims = 1
-"nmap <Leader>c <Plug>NERDCommenterToggle
-"vmap <Leader>c <Plug>NERDCommenterToggle
+let NERDSpaceDelims = 1
+nmap <Leader>c <Plug>NERDCommenterToggle
+vmap <Leader>c <Plug>NERDCommenterToggle
 " ===============================================================
 
 " ===============================================================
