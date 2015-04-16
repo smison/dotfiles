@@ -34,7 +34,9 @@ nnoremap <C-h> :<C-u>help<Space><C-r><C-w><Enter>
 autocmd BufNewFile,BufRead *.rb nnoremap <C-e> :!ruby %
 autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python %
 autocmd BufNewFile,BufRead *.pl nnoremap <C-e> :!perl %
-" set number
+" set listのトグル
+nnoremap <silent> <C-l> :setlocal list!<CR>
+" set numberのトグル
 nnoremap <silent> <C-m> :setlocal number!<CR>
 " set paste
 function Setpaste()
