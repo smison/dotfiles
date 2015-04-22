@@ -1,24 +1,27 @@
 set number
-set tabstop=2
-set shiftwidth=2
+" set tabstop=2
+" set shiftwidth=2
 set autoindent  "autoindentを有効にする
 " 不可視文字を表示
-"set list
+set list
+" 不可視文字の表示形式(tab >---, 半スペ .)
+set listchars=tab:--,trail:.
 " 不可視文字の表現指定
 "set listchars=tab:≫-,trail:-,eol:?,extends:≫,precedes:≪,nbsp:%
 " tabを拡張
-set expandtab
+"set expandtab
 " インサートモード時にバックスペースを使う
 set backspace=indent,eol,start
 " 検索の際の大文字小文字区別を賢く判別
 set smartcase
 " ハイライト検索
 :set hlsearch
-" ステータスラインを常に表示（編集中のファイル名が常に確認できるようになる）
+"" ステータスラインを常に表示（編集中のファイル名が常に確認できるようになる）
 set laststatus=2
 " vi との互換性OFF
 set nocompatible
-"syntax on
+" シンタックスハイライト
+syntax enable
 " paragraphをコメントアウト
 nnoremap <C-c> <C-v>}k<S-I>#<Esc>jk
 " ===============================================================
@@ -59,27 +62,18 @@ set completeopt=menuone
 for k in split("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",'\zs')
   exec "imap <expr> " . k . " pumvisible() ? '" . k . "' : '" . k . "\<C-X>\<C-P>\<C-N>'"
 endfor
+hi Pmenu ctermbg=8
+hi PmenuSel ctermbg=4
+hi PmenuSbar ctermbg=2
+hi PmenuThumb ctermfg=3
 " filetype detect
 " ===============================================================
 " ===============================================================
 " ファイル形式の検出を一旦無効にする
 filetype off
 filetype plugin indent on
-" ===============================================================
-" ===============================================================
-" autocmdの追加により問題が生じないよう、一旦削除
-"setlocal cursorline
-"autocmd WinEnter * setlocal cursorline
-"autocmd WinLeave * setlocal nocursorline
-" ===============================================================
-" ===============================================================
-" vundle
-" Vundle を初期化、Vundle 自身も Vundle で管理
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
-"Bundle 'gmarik/vundle'
-" ===============================================================
 
+" ===============================================================
 " ===============================================================
 " NERD-Tree
 set nocompatible
@@ -103,7 +97,24 @@ if has('vim_starting') &&  file_name == ""
   autocmd VimEnter * NERDTree ./
 endif
 " ===============================================================
+" ===============================================================
 
+filetype plugin indent on
+
+" ===============================================================
+" ===============================================================
+" autocmdの追加により問題が生じないよう、一旦削除
+"setlocal cursorline
+"autocmd WinEnter * setlocal cursorline
+"autocmd WinLeave * setlocal nocursorline
+" ===============================================================
+" ===============================================================
+" vundle
+" Vundle を初期化、Vundle 自身も Vundle で管理
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
+"Bundle 'gmarik/vundle'
+" ===============================================================
 " ===============================================================
 " vim-indent-guides
 "Bundle 'nathanaelkane/vim-indent-guides'
@@ -140,6 +151,10 @@ vmap <Leader>c <Plug>NERDCommenterToggle
 " Syntastic(構文チェック)
 NeoBundle 'Syntastic'
 " ===============================================================
+
+NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'violetyk/neocomplete-php.vim'
+let g:neocomplete_php_locale = 'ja'
 
 "================================================================
 " offにしていた filetype をon に
