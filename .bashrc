@@ -49,6 +49,7 @@ alias vimrc='vi ~/.vimrc'
 alias vivimrc='vi ~/.vimrc'
 alias lsa='ls -la'
 alias cdtest='cd /var/tmp/test'
+alias dot='cd ~/dotfiles'
 # git
 alias gs='git status'
 alias ga='git add'

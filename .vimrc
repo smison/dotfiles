@@ -24,6 +24,8 @@ set nocompatible
 syntax enable
 " paragraphをコメントアウト
 nnoremap <C-c> <C-v>}k<S-I>#<Esc>jk
+" 色
+colorscheme murphy
 " ===============================================================
 " shortcuts
 " 編集 :edit $MYVIMRC
