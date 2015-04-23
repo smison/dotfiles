@@ -25,7 +25,7 @@ syntax enable
 " paragraphをコメントアウト
 nnoremap <C-c> <C-v>}k<S-I>#<Esc>jk
 " 色
-colorscheme murphy
+colorscheme murphy_ex
 " ===============================================================
 " shortcuts
 " 編集 :edit $MYVIMRC
@@ -64,10 +64,6 @@ set completeopt=menuone
 for k in split("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",'\zs')
   exec "imap <expr> " . k . " pumvisible() ? '" . k . "' : '" . k . "\<C-X>\<C-P>\<C-N>'"
 endfor
-hi Pmenu ctermbg=8
-hi PmenuSel ctermbg=4
-hi PmenuSbar ctermbg=2
-hi PmenuThumb ctermfg=3
 " filetype detect
 " ===============================================================
 " ===============================================================
