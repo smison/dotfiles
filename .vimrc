@@ -8,8 +8,6 @@ set list
 set listchars=tab:--,trail:.
 " 不可視文字の表現指定
 "set listchars=tab:≫-,trail:-,eol:?,extends:≫,precedes:≪,nbsp:%
-" tabを拡張
-"set expandtab
 " インサートモード時にバックスペースを使う
 set backspace=indent,eol,start
 " 検索の際の大文字小文字区別を賢く判別
