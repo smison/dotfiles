@@ -6,8 +6,6 @@ set autoindent  "autoindentを有効にする
 set list
 " 不可視文字の表示形式(tab >---, 半スペ .)
 set listchars=tab:--,trail:.
-" 不可視文字の表現指定
-"set listchars=tab:≫-,trail:-,eol:?,extends:≫,precedes:≪,nbsp:%
 " インサートモード時にバックスペースを使う
 set backspace=indent,eol,start
 " 検索の際の大文字小文字区別を賢く判別
