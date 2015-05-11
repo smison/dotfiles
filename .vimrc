@@ -103,13 +103,6 @@ filetype plugin indent on
 "autocmd WinLeave * setlocal nocursorline
 " ===============================================================
 " ===============================================================
-" vundle
-" Vundle を初期化、Vundle 自身も Vundle で管理
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
-"Bundle 'gmarik/vundle'
-" ===============================================================
-" ===============================================================
 " vim-indent-guides
 "Bundle 'nathanaelkane/vim-indent-guides'
 "colorscheme koehler
