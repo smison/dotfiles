@@ -97,12 +97,6 @@ filetype plugin indent on
 
 " ===============================================================
 " ===============================================================
-" autocmdの追加により問題が生じないよう、一旦削除
-"setlocal cursorline
-"autocmd WinEnter * setlocal cursorline
-"autocmd WinLeave * setlocal nocursorline
-" ===============================================================
-" ===============================================================
 " vim-indent-guides
 "Bundle 'nathanaelkane/vim-indent-guides'
 "colorscheme koehler
