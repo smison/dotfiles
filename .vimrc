@@ -91,27 +91,6 @@ if has('vim_starting') &&  file_name == ""
   autocmd VimEnter * NERDTree ./
 endif
 " ===============================================================
-" ===============================================================
-
-filetype plugin indent on
-
-" ===============================================================
-" ===============================================================
-" vim-indent-guides
-"Bundle 'nathanaelkane/vim-indent-guides'
-"colorscheme koehler
-" vim立ち上げたときに、自動的にvim-indent-guidesをオンにする
-"let g:indent_guides_enable_on_vim_startup=1
-" ガイドをスタートするインデントの量
-"let g:indent_guides_start_level=1
-" 自動カラーを無効にする
-"let g:indent_guides_auto_colors=0
-" インデントのカラー
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#262626 ctermbg=darkgray
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#262626 ctermbg=darkgray
-" ガイドの幅
-"let g:indent_guides_guide_size = 1
-" ===============================================================
 
 " ===============================================================
 " NERD-Commenter
