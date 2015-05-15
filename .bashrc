@@ -7,22 +7,17 @@ fi
 
 # User specific aliases and functions
 alias rm='rm -i'
-
 alias vi='vim'
 alias vibash='vim ~/.bashrc'
 alias vibashe='vim ~/.bashrc_ext'
 alias vibashext='vim ~/.bashrc_ext'
 alias rebash='source ~/.bashrc'
 alias vimrc='vi ~/.vimrc'
-
 alias cdt='cd /var/tmp'
-
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
-
-# User specific aliases and functions
 alias hi='history'
 alias hg='history | grep'
 alias cd..='cd ..'
@@ -50,7 +45,6 @@ alias vivimrc='vi ~/.vimrc'
 alias lsa='ls -la'
 alias cdtest='cd /var/tmp/test'
 alias dot='cd ~/dotfiles'
-# git
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
@@ -61,19 +55,17 @@ alias gsh='git show'
 alias gb='git branch'
 alias gch='git checkout'
 alias gm='git merge'
-#alias gr='git remote -v'
 alias grv='git remote -v'
-# ps aux | grep *
 alias pg='ps aux | grep '
-# super short
 alias l='ls'
-# history
 alias hi='history'
+alias SKILL='sudo kill -KILL'
+alias suni='grep -vl svn | sort | uniq'
+
 HISTSIZE=100000
 HISTTIMEFORMAT='%y/%m/%d %H:%M:%S ';
-# SKILL
+
 alias SKILL='sudo kill -KILL'
-# sort & uniq & remove svn
 alias suni='grep -vl svn | sort | uniq'
 
 PATH="/usr/local/heroku/bin:$PATH"
