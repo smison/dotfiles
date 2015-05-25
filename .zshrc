@@ -6,3 +6,8 @@ alias rebash='source ~/.bashrc'
 alias vimrc='vi ~/.vimrc'
 alias viz='vi ~/.zshrc'
 alias rez='source ~/.zshrc'
+
+# ヒストリの設定
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
