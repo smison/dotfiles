@@ -1,6 +1,10 @@
 set number
+
+""" タブを半角スペース2つで入力
 " set tabstop=2
 " set shiftwidth=2
+" set expandtab
+
 set autoindent  "autoindentを有効にする
 " 不可視文字を表示
 set list
