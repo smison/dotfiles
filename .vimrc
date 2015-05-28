@@ -97,7 +97,7 @@ endif
 " ===============================================================
 
 " ===============================================================
-" vim-easymotion(s二回押しでショートカット)
+" vim-easymotion(s二回押し+Enterでショートカット)
 " http://haya14busa.com/mastering-vim-easymotion/
 nmap s <Plug>(easymotion-s2)
 
