@@ -80,6 +80,7 @@ if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
     call neobundle#begin(expand('~/.vim/bundle/'))
         NeoBundle 'scrooloose/nerdtree'
+        NeoBundle 'Lokaltog/vim-easymotion'
     call neobundle#end()
 endif
 " <F9>でNERDTreeを開く
@@ -94,6 +95,11 @@ if has('vim_starting') &&  file_name == ""
   autocmd VimEnter * NERDTree ./
 endif
 " ===============================================================
+
+" ===============================================================
+" vim-easymotion(s二回押しでショートカット)
+" http://haya14busa.com/mastering-vim-easymotion/
+nmap s <Plug>(easymotion-s2)
 
 " ===============================================================
 " NERD-Commenter
