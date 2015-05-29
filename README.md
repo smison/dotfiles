@@ -1,8 +1,8 @@
 # dotfiles
 
-- update
+- setup
 ```
-./update.sh
+./setup.sh
 ```
 
 - ex
