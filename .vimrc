@@ -81,6 +81,8 @@ if has('vim_starting')
     call neobundle#begin(expand('~/.vim/bundle/'))
         NeoBundle 'scrooloose/nerdtree'
         NeoBundle 'Lokaltog/vim-easymotion'
+        " Syntastic(構文チェック)
+        NeoBundle 'Syntastic'
     call neobundle#end()
 endif
 " <F9>でNERDTreeを開く
@@ -110,12 +112,6 @@ let NERDSpaceDelims = 1
 nmap <Leader>c <Plug>NERDCommenterToggle
 vmap <Leader>c <Plug>NERDCommenterToggle
 " ===============================================================
-
-" ===============================================================
-" Syntastic(構文チェック)
-NeoBundle 'Syntastic'
-" ===============================================================
-
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'violetyk/neocomplete-php.vim'
 let g:neocomplete_php_locale = 'ja'
