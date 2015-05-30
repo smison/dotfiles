@@ -83,6 +83,9 @@ if has('vim_starting')
         NeoBundle 'Lokaltog/vim-easymotion'
         " Syntastic(構文チェック)
         NeoBundle 'Syntastic'
+        NeoBundle 'scrooloose/nerdcommenter'==
+        NeoBundle 'Shougo/neocomplete.vim'
+        NeoBundle 'violetyk/neocomplete-php.vim'
     call neobundle#end()
 endif
 " <F9>でNERDTreeを開く
@@ -105,15 +108,11 @@ nmap s <Plug>(easymotion-s2)
 
 " ===============================================================
 " NERD-Commenter
-NeoBundle 'scrooloose/nerdcommenter'
-
 " コメントした後に挿入するスペースの数
 let NERDSpaceDelims = 1
 nmap <Leader>c <Plug>NERDCommenterToggle
 vmap <Leader>c <Plug>NERDCommenterToggle
-" ===============================================================
-NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'violetyk/neocomplete-php.vim'
+" =============================================================
 let g:neocomplete_php_locale = 'ja'
 
 "================================================================
