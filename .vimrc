@@ -83,7 +83,7 @@ if has('vim_starting')
         NeoBundle 'Lokaltog/vim-easymotion'
         " Syntastic(構文チェック)
         NeoBundle 'Syntastic'
-        NeoBundle 'scrooloose/nerdcommenter'==
+        NeoBundle 'scrooloose/nerdcommenter'
         NeoBundle 'Shougo/neocomplete.vim'
         NeoBundle 'violetyk/neocomplete-php.vim'
     call neobundle#end()
