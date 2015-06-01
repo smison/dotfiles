@@ -62,6 +62,8 @@ alias hi='history'
 alias SKILL='sudo kill -KILL'
 alias suni='grep -vl svn | sort | uniq'
 
+alias pysv='python -m SimpleHTTPServer 3000'
+
 HISTSIZE=100000
 HISTTIMEFORMAT='%y/%m/%d %H:%M:%S ';
 
