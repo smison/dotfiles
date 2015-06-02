@@ -88,6 +88,9 @@ if has('vim_starting')
         NeoBundle 'violetyk/neocomplete-php.vim'
     call neobundle#end()
 endif
+
+" ===============================================================
+" NERDTree
 " <F9>でNERDTreeを開く
 nmap <F9> :NERDTreeToggle
 " <C-n>で次のタブへ
@@ -100,12 +103,9 @@ if has('vim_starting') &&  file_name == ""
   autocmd VimEnter * NERDTree ./
 endif
 " ===============================================================
-
-" ===============================================================
 " vim-easymotion(s二回押し+Enterでショートカット)
 " http://haya14busa.com/mastering-vim-easymotion/
 nmap s <Plug>(easymotion-s2)
-
 " ===============================================================
 " NERD-Commenter
 " コメントした後に挿入するスペースの数
@@ -114,7 +114,6 @@ nmap <Leader>c <Plug>NERDCommenterToggle
 vmap <Leader>c <Plug>NERDCommenterToggle
 " =============================================================
 let g:neocomplete_php_locale = 'ja'
-
 "================================================================
 " offにしていた filetype をon に
 filetype on
