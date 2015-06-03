@@ -109,6 +109,8 @@ vmap <Leader>c <Plug>NERDCommenterToggle
 " =============================================================
 let g:neocomplete_php_locale = 'ja'
 "================================================================
+filetype plugin on
+filetype indent on
 " offにしていた filetype をon に
 filetype on
 " ===============================================================
