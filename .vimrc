@@ -64,15 +64,9 @@ set completeopt=menuone
 for k in split("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",'\zs')
   exec "imap <expr> " . k . " pumvisible() ? '" . k . "' : '" . k . "\<C-X>\<C-P>\<C-N>'"
 endfor
-" ===============================================================
-" ===============================================================
-" ファイル形式の検出を一旦無効にする
-filetype off
-filetype plugin indent on
 
 " ===============================================================
-" ===============================================================
-" NERD-Tree
+" NeoBundle
 set nocompatible
 filetype off
 
