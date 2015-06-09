@@ -6,7 +6,9 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-alias rm='rm -i'
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i -v"
 alias vi='vim'
 alias vibash='vim ~/.bashrc'
 alias vibashe='vim ~/.bashrc_ext'
