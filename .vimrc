@@ -1,9 +1,9 @@
 set number
 
-""" タブを半角スペース2つで入力
-" set tabstop=2
-" set shiftwidth=2
-" set expandtab
+" 拡張子ごとに別のtabの設定
+autocmd  BufNewFile,BufRead *.php  setlocal tabstop=4 shiftwidth=4
+autocmd  BufNewFile,BufRead *.rb   setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd  BufNewFile,BufRead *.html setlocal tabstop=4 shiftwidth=4 expandtab
 
 set autoindent  "autoindentを有効にする
 " 不可視文字を表示
