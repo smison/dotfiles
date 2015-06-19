@@ -64,6 +64,7 @@ alias l='ls'
 alias hi='history'
 alias SKILL='sudo kill -KILL'
 alias suni='grep -vl svn | sort | uniq'
+alias pu='phpunit'
 
 alias ng='sudo netstat -apn | grep' # port番号からprocess名を調べる
 alias pysv='python -m SimpleHTTPServer 3000'
