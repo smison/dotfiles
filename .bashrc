@@ -69,6 +69,7 @@ alias tf='tail -f'
 
 alias ng='sudo netstat -apn | grep' # port番号からprocess名を調べる
 alias pysv='python -m SimpleHTTPServer 3000'
+alias phpsv='php -S localhost:3000'
 
 HISTSIZE=100000
 HISTTIMEFORMAT='%y/%m/%d %H:%M:%S ';
