@@ -8,12 +8,17 @@ alias vibashext='vim ~/.bashrc_ext'
 alias rebash='source ~/.bashrc'
 alias vimrc='vi ~/.vimrc'
 alias viz='vi ~/.zshrc'
+alias vizsh='vi ~/.zshrc'
 alias rez='source ~/.zshrc'
+alias rezsh='source ~/.zshrc'
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
+
+# ..で上の階層へ移動
+setopt auto_cd
 
 ########################################
 # 補完
