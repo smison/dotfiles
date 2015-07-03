@@ -13,4 +13,4 @@
 [core]
 	editor = vim
 [diff]
-    patience = true
+	patience = true
