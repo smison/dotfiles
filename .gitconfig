@@ -12,3 +12,5 @@
 	fix = commit --amend
 [core]
 	editor = vim
+[diff]
+    patience = true
