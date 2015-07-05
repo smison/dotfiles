@@ -146,4 +146,3 @@ filetype plugin on
 filetype indent on
 " offにしていた filetype をon に
 filetype on
-" ===============================================================
