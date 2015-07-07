@@ -113,6 +113,7 @@ if has('vim_starting')
         NeoBundle 'scrooloose/nerdcommenter'
         NeoBundle 'Shougo/neocomplete.vim'
         NeoBundle 'violetyk/neocomplete-php.vim'
+        NeoBundle 'mattn/emmet-vim'
     call neobundle#end()
 endif
 
