@@ -39,7 +39,6 @@ alias gm='git merge'
 alias pg='ps aux | grep '
 alias hi='history'
 alias SKILL='sudo kill -KILL'
-alias suni='grep -vl svn | sort | uniq'
 alias pu='phpunit'
 alias tf='tail -f'
 
