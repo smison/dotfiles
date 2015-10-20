@@ -36,7 +36,6 @@ alias gb='git branch'
 alias hi='history'
 alias SKILL='sudo kill -KILL'
 alias pu='phpunit'
-alias tf='tail -f'
 
 alias ng='sudo netstat -apn | grep' # port番号からprocess名を調べる
 alias pysv='python -m SimpleHTTPServer 3000'
