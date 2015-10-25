@@ -6,6 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias ls='ls --color=auto'
 alias ll='ls -la --color=auto'
 alias rm="rm -i"
 alias cp="cp -i"
@@ -20,7 +21,6 @@ alias rebashp='source ~/.bash_profile'
 alias vimrc='vi ~/.vimrc'
 alias hi='history'
 alias cd..='cd ..'
-alias ls='ls --color=auto'
 alias cbash='cat ~/.bashrc'
 alias cbashp='cat ~/.bash_profile'
 alias vissh='vi ~/.ssh/config'
