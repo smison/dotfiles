@@ -31,7 +31,6 @@ alias gp='git push'
 alias gl='git log'
 alias gb='git branch'
 alias hi='history'
-alias SKILL='sudo kill -KILL'
 alias pu='phpunit'
 
 alias pysv='python -m SimpleHTTPServer 3000'
