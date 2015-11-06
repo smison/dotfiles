@@ -41,8 +41,6 @@ HISTSIZE=100000
 HISTTIMEFORMAT='%y/%m/%d %H:%M:%S ';
 HISTCONTROL=ignoredups 
 
-alias suni='grep -vl svn | sort | uniq'
-
 PATH="/usr/local/heroku/bin:$PATH"
 
 # PROMPT
