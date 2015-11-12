@@ -117,4 +117,22 @@ function cdl {
     fi
 }
 
+# historyをクリップボードにコピー(要pbcopy)
+function hcp() {
+    if [ -z "$1" ]; then
+        echo "need argument."
+        return 0
+    fi
+
+    command=`history | grep "^ *$1 " | cut -d ' ' -f 5-`
+
+    # 該当行が無いとき
+    if [ -z "$command" ]; then
+        echo "row not found."
+        return 0
+    fi
+    echo $command | pbcopy
+    echo "copied: $command"
+}
+
 source ~/.bashrc_ext
