@@ -40,6 +40,7 @@ alias phpsv='php -S localhost:3000'
 
 HISTSIZE=100000
 HISTTIMEFORMAT='%y/%m/%d %H:%M:%S ';
+#重複履歴を無視
 HISTCONTROL=ignoredups 
 
 PATH="/usr/local/heroku/bin:$PATH"
