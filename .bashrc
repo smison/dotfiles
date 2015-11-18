@@ -32,7 +32,6 @@ alias gp='git push'
 alias gl='git log'
 alias gb='git branch'
 alias hi='history'
-alias gr='grep -r'
 
 alias pysv='python -m SimpleHTTPServer 3000'
 alias phpsv='php -S localhost:3000'
