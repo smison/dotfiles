@@ -7,6 +7,7 @@ fi
 
 # User specific aliases and functions
 alias g='grep -r'
+alias h='history'
 alias ls='ls --color=auto'
 alias ll='ls -la --color=auto'
 alias rm="rm -i"
