@@ -9,6 +9,7 @@ fi
 alias g='grep -r'
 alias h='history'
 alias v='vim'
+alias r='ruby'
 alias ls='ls --color=auto'
 alias ll='ls -la --color=auto'
 alias rm="rm -i"
