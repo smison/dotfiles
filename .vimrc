@@ -17,7 +17,7 @@ set backspace=indent,eol,start
 set smartcase
 " ハイライト検索
 :set hlsearch
-"" ステータスラインを常に表示（編集中のファイル名が常に確認できるようになる）
+" ステータスラインを常に表示（編集中のファイル名が常に確認できるようになる）
 set laststatus=2
 " vi との互換性OFF
 set nocompatible
