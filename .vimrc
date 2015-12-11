@@ -26,7 +26,7 @@ syntax enable
 " paragraphをコメントアウト
 nnoremap <C-c> <C-v>}k<S-I>#<Esc>jk
 " 色
-colorscheme murphy_ex
+" colorscheme murphy_ex
 
 " ===============================================================
 " 挿入モード時、ステータスラインの色を変更
