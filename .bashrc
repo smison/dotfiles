@@ -48,9 +48,6 @@ HISTCONTROL=ignoredups
 
 PATH="/usr/local/heroku/bin:$PATH"
 
-# PROMPT
-export PS1='\[\033[01;32m\]\u@\H\[\033[01;34m\] \w \$\[\033[00m\]'
-
 function javaexec() {
   fname_ext=$1
   fname="${fname_ext%.*}"
