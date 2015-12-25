@@ -48,7 +48,7 @@ HISTCONTROL=ignoredups
 
 PATH="/usr/local/heroku/bin:$PATH"
 
-export PS1="[\u@\W]\$ "
+PS1="[\u@\W]\$ "
 
 function javaexec() {
   fname_ext=$1
