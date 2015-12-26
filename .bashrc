@@ -48,6 +48,7 @@ HISTCONTROL=ignoredups
 
 PATH="/usr/local/heroku/bin:$PATH"
 
+# RPOMPT
 PS1="[\u@\W]\$ "
 
 function javaexec() {
