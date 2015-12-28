@@ -3,7 +3,7 @@ set number
 " 拡張子ごとに別のtabの設定
 autocmd BufNewFile,BufRead *.php  setlocal tabstop=8 shiftwidth=8
 autocmd BufNewFile,BufRead *.rb   setlocal tabstop=8 shiftwidth=8 expandtab
-autocmd BufNewFile,BufRead *.html setlocal tabstop=8 shiftwidth=8 expandtab
+autocmd BufNewFile,BufRead *.html setlocal tabstop=8 shiftwidth=8
 " </で閉じタグを自動補完
 autocmd FileType html inoremap <silent> <buffer> </ </<C-x><C-o>
 set autoindent  "autoindentを有効にする
