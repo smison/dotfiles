@@ -143,4 +143,6 @@ export LANG='ja_JP.UTF-8'
 export LC_ALL='ja_JP.UTF-8'
 export LC_MESSAGES='ja_JP.UTF-8'
 
+export EDITOR='/usr/bin/vim'
+
 source ~/.bashrc_ext
