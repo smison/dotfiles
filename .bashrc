@@ -15,6 +15,7 @@ alias ll='ls -la --color=auto'
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i -v"
+alias ps='ps --sort=start_time'
 alias vi='vim'
 alias vibash='vim ~/.bashrc'
 alias vibashe='vim ~/.bashrc_ext'
