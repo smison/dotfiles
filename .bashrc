@@ -11,7 +11,7 @@ alias h='history'
 alias v='vim'
 alias r='ruby'
 alias ls='ls --color=auto'
-alias ll='ls -la --color=auto'
+alias ll='ls -AlFh --show-control-chars --color=auto'
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i -v"
