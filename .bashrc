@@ -12,6 +12,7 @@ alias v='vim'
 alias r='ruby'
 alias ls='ls --color=auto'
 alias ll='ls -AlFh --show-control-chars --color=auto'
+alias la='ls -CFal'
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i -v"
