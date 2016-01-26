@@ -28,7 +28,7 @@ nnoremap <C-c> <C-v>}k<S-I>#<Esc>jk
 " 色
 " colorscheme murphy_ex
 " スワップファイルをつくらない
-:set noswapfile
+set noswapfile
 
 " ===============================================================
 " 挿入モード時、ステータスラインの色を変更
