@@ -37,7 +37,7 @@ alias gc='git commit -m'
 alias gd='git diff'
 alias gp='git push'
 alias gl='git log'
-alias gb='git branch'
+alias gb='git branch -a'
 alias hi='history'
 alias hg='history | grep'
 
