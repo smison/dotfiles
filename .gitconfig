@@ -9,6 +9,7 @@
 	interactive = auto
 	grep = auto
 [alias]
+	st = status
 	fix = commit --amend
 [core]
 	editor = vim
